@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "config": "nbody/instability_ensemble/configs/literature_anchored_campaign.json",
+  "evidence_class": "production_candidate",
+  "seed_count": 8,
+  "duration_per_seed_yr": 10000000.0,
+  "disk_particles": 1000,
+  "declared_disk_mass_earth": 20.0,
+  "represented_disk_mass_earth": 20.0,
+  "disk_inner_edge_au": 21.5,
+  "outermost_planet_a_au": 19.28692278141362,
+  "period_ratio_template_ok": true,
+  "disk_mass_ok": true,
+  "disk_planet_separation_ok": true,
+  "backreaction_enabled": true,
+  "claim_boundary": "Passing validates campaign construction only. Resonant-angle libration, instability, delivery probability, numerical convergence and Earth-Moon encounter outcomes require execution."
+}

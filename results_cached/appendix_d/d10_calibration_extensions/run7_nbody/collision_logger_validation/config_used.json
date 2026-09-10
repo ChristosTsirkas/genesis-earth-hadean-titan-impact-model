@@ -1,0 +1,27 @@
+{
+  "evidence_class": "pipeline_validation",
+  "scientific_use": "Validates deterministic integration, collision logging, impact geometry, and output serialization only.",
+  "seed": 410006,
+  "integrator": "ias15",
+  "dt_yr": 0.0001,
+  "duration_yr": 0.2,
+  "output_samples": 40,
+  "earth_radius_multiplier": 50.0,
+  "massive_bodies": [
+    {
+      "name": "Earth",
+      "mass_msun": 3.0034896e-06,
+      "a_au": 1.0,
+      "e": 0.0167,
+      "inc_deg": 0.0,
+      "M_deg": 0.0
+    }
+  ],
+  "source": {
+    "generator": "collision_logger_validation",
+    "n_particles": 32,
+    "start_distance_radii": 5.0,
+    "max_impact_parameter_radii": 1.5,
+    "relative_speed_au_yr": 0.2
+  }
+}

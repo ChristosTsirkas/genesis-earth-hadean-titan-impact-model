@@ -1,0 +1,38 @@
+metric,value
+run,Run 6 - OAT robustness and counterfactual validation
+purpose,Test local parameter sensitivity without recalibration.
+baseline.c_eff,2.5e+25
+baseline.impactor_dh,0.0001465
+baseline.n_photolysis_scale,0.61
+baseline.h2_reservoir_kg,5e+20
+baseline.argon_shielding_factor,0.9805247566
+baseline_argon_exposure_factor,0.019475243399999953
+counterfactuals.no_argon_shielding.argon_shielding_factor,0.0
+counterfactuals.complete_argon_shielding.argon_shielding_factor,1.0
+counterfactuals.no_atomic_n_access.n_photolysis_scale,0.0
+counterfactuals.no_h2_escape_reservoir.h2_reservoir_kg,0.0
+counterfactuals.smow_like_impactor_water.impactor_dh,0.0001558
+counterfactuals.double_heat_capacity.c_eff,5e+25
+cases_per_setting,8
+integration_years,100000.0
+integration_steps,1000
+baseline_reproduction.label,baseline_run5
+baseline_reproduction.c_eff,2.5e+25
+baseline_reproduction.impactor_dh,0.0001465
+baseline_reproduction.n_photolysis_scale,0.61
+baseline_reproduction.h2_reservoir_kg,5e+20
+baseline_reproduction.argon_shielding_factor,0.9805247566
+baseline_reproduction.argon_exposure_factor,0.019475243399999953
+baseline_reproduction.first_T_below_1500_yr_min,50550.55055055056
+baseline_reproduction.first_T_below_1500_yr_max,50550.55055055056
+baseline_reproduction.final_T_K_min,300.0
+baseline_reproduction.final_T_K_max,300.0
+baseline_reproduction.D_H_over_SMOW_min,0.9424699699296769
+baseline_reproduction.D_H_over_SMOW_max,0.9463006295671574
+baseline_reproduction.N_residual_fraction_min,0.0018393505095084836
+baseline_reproduction.N_residual_fraction_max,0.0018393505095084836
+baseline_reproduction.Ar36_retained_fraction_min,0.12000000073673292
+baseline_reproduction.Ar36_retained_fraction_max,0.12000000073673292
+baseline_reproduction.max_crossover_amu_min,564603.1225622032
+baseline_reproduction.max_crossover_amu_max,564603.1225622032
+interpretive_rule,No new empirical pass/fail tolerances are invented here; report response surfaces and explicit ablations.

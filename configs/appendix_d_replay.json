@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "description": "Deterministic replay specification for Appendix D.1-D.10.",
+  "stage1": {
+    "n_objects_per_seed": 20000,
+    "run1_seeds": [4100, 4101, 4102, 4103, 4104],
+    "run2_seeds": [4200, 4201, 4202, 4203, 4204]
+  },
+  "stage2": {
+    "impactor_masses_kg": [5.972e22, 8.958e22, 1.345e23, 1.7916e23],
+    "water_fraction": 0.5,
+    "atmosphere_to_ocean_mass_ratio": 0.05,
+    "intended_v_over_vesc_min": 1.0,
+    "intended_v_over_vesc_max": 2.0
+  },
+  "representative_rows": {
+    "run1": [[5.972e22, 4], [5.972e22, 5], [8.958e22, 4], [8.958e22, 18], [1.345e23, 23], [1.7916e23, 4], [1.7916e23, 5], [1.7916e23, 24]],
+    "run2": [[5.972e22, 13], [5.972e22, 12], [8.958e22, 13], [8.958e22, 12], [1.345e23, 3], [1.345e23, 12], [1.7916e23, 3], [1.7916e23, 1]]
+  },
+  "atmosphere": {
+    "years": 100000.0,
+    "steps": 1000,
+    "background_pressure_bar": 100.0,
+    "run1": {
+      "c_eff": 5.0e30,
+      "impactor_dh": 2.0e-4,
+      "n_photolysis_scale": 1.0,
+      "h2_flux0_m2_s": 1.0e17,
+      "argon_shielding_factor": 0.0,
+      "legacy_full_n_access": true
+    },
+    "run2": {
+      "c_eff": 2.5e25,
+      "impactor_dh": 1.35e-4,
+      "n_photolysis_scale": 0.61,
+      "h2_reservoir_kg": 5.0e20,
+      "argon_shielding_factor": 0.0
+    },
+    "run4": {
+      "c_eff": 2.5e25,
+      "impactor_dh": 1.465e-4,
+      "n_photolysis_scale": 0.61,
+      "h2_reservoir_kg": 5.0e20,
+      "argon_shielding_factor": 0.958
+    },
+    "run5": {
+      "c_eff": 2.5e25,
+      "impactor_dh": 1.465e-4,
+      "n_photolysis_scale": 0.61,
+      "h2_reservoir_kg": 5.0e20,
+      "argon_shielding_factor": 0.9805247566
+    }
+  },
+  "chemistry": {
+    "x_nh3": [0.005, 0.010, 0.025, 0.050],
+    "delta_iw": [-3, -2, -1, 0],
+    "impactor_mass_kg": 1.345e23,
+    "co2_mass_kg": 4.4e18,
+    "h2o_mass_kg": 1.0e21,
+    "fe_mass_kg": 5.6e18,
+    "h2s_mass_kg": 3.4e15,
+    "nh3_conversion_cap": 0.85,
+    "quench_threshold_k": 1500.0
+  },
+  "nbody": {
+    "collision_logger_config": "nbody/configs/collision_logger_validation.json",
+    "outer_reservoir_config": "nbody/configs/outer_reservoir_demo.json",
+    "post_release_config": "nbody/configs/post_instability_injection_pilot.json",
+    "run9_campaign_config": "nbody/instability_ensemble/configs/literature_anchored_campaign.json",
+    "run9_smoke_config": "nbody/instability_ensemble/configs/local_smoke.json"
+  },
+  "sph": {
+    "matrix_config": "sph/configs/impact_matrix.json"
+  }
+}

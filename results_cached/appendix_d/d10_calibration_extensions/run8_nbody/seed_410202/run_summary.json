@@ -1,0 +1,20 @@
+{
+  "config": "config_used.json",
+  "evidence_class": "exploratory",
+  "scientific_use": "Multi-seed post-release transport pilot conditioned on high-eccentricity injection from an outer reservoir; not a self-consistent instability or an absolute delivery probability.",
+  "rebound_version": "5.1.1",
+  "seed": 410202,
+  "integrator": "ias15",
+  "collision_search": "line",
+  "duration_yr": 500.0,
+  "source_generator": "perihelion_injection",
+  "test_particles_initial": 256,
+  "collisions_with_earth": 0,
+  "grazing_60_75": 0,
+  "earth_radius_multiplier": 1.0,
+  "reservoir_backreaction": false,
+  "inner_crossing_threshold_au": null,
+  "inner_crossers": 0,
+  "relative_energy_error": -3.9259706362490983e-16,
+  "claim_boundary": "Pipeline-validation and exploratory runs are not delivery probabilities."
+}

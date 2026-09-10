@@ -1,0 +1,8 @@
+{
+  "impactor_mass_titan": [0.75, 1.0, 1.25],
+  "speed_over_mutual_escape": [1.0, 1.2],
+  "impact_angles_deg": [60.0, 65.0, 70.0, 75.0],
+  "water_mass_fractions": [0.30, 0.50],
+  "particle_counts": [100000, 1000000]
+}
+

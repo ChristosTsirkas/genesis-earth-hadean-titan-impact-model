@@ -1,0 +1,3 @@
+run_name,seed,duration_yr,test_particles_initial,collisions_with_earth,grazing_60_75,relative_energy_error
+seed_410301,410301,2.0,32,0,0,8.032769092203021e-09
+seed_410302,410302,2.0,32,0,0,8.033835052813659e-09

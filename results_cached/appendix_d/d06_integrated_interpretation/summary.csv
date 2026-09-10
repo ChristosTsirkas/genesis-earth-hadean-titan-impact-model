@@ -1,0 +1,5 @@
+metric,value
+stage1_valid,170
+stage2_intended,28
+thermal_quench_reached,False
+chemistry_cases_aborted,16

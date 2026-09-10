@@ -1,0 +1,19 @@
+metric,value
+config,config_used.json
+evidence_class,pipeline_validation
+scientific_use,"Validates deterministic integration, collision logging, impact geometry, and output serialization only."
+rebound_version,5.1.1
+seed,410006
+integrator,ias15
+collision_search,line
+duration_yr,0.2
+source_generator,collision_logger_validation
+test_particles_initial,32
+collisions_with_earth,32
+grazing_60_75,0
+earth_radius_multiplier,50.0
+reservoir_backreaction,False
+inner_crossing_threshold_au,
+inner_crossers,0
+relative_energy_error,-2.286024166406971e-16
+claim_boundary,Pipeline-validation and exploratory runs are not delivery probabilities.

@@ -1,0 +1,136 @@
+{
+  "atmosphere": {
+    "ar36_retained_fraction_max": 2.2739652566007968e-53,
+    "ar36_retained_fraction_min": 2.2739652566007968e-53,
+    "case_metrics": [
+      {
+        "ar36_retained_fraction": 2.2739652566007968e-53,
+        "d_h_over_smow": 0.8794817206580408,
+        "final_ar36_kg": 1.1369826283003984e-37,
+        "final_d_h": 0.00013702325207852275,
+        "final_nitrogen_kg": 4.3224736973449364e+18,
+        "final_temperature_K": 300.0,
+        "first_below_1500_year": 50550.55055055056,
+        "max_crossover_mass_amu": 564603.1225622032,
+        "nitrogen_residual_fraction": 0.0018393505095084836,
+        "temperature_drop_K": 2500.0
+      },
+      {
+        "ar36_retained_fraction": 2.2739652566007968e-53,
+        "d_h_over_smow": 0.8796672893022334,
+        "final_ar36_kg": 1.1369826283003984e-37,
+        "final_d_h": 0.00013705216367328795,
+        "final_nitrogen_kg": 4.3224736973449364e+18,
+        "final_temperature_K": 300.0,
+        "first_below_1500_year": 50550.55055055056,
+        "max_crossover_mass_amu": 564603.1225622032,
+        "nitrogen_residual_fraction": 0.0018393505095084836,
+        "temperature_drop_K": 2500.0
+      },
+      {
+        "ar36_retained_fraction": 2.2739652566007968e-53,
+        "d_h_over_smow": 0.8755502035799103,
+        "final_ar36_kg": 1.1369826283003984e-37,
+        "final_d_h": 0.00013641072171775002,
+        "final_nitrogen_kg": 4.3224736973449364e+18,
+        "final_temperature_K": 300.0,
+        "first_below_1500_year": 50550.55055055056,
+        "max_crossover_mass_amu": 564603.1225622032,
+        "nitrogen_residual_fraction": 0.0018393505095084836,
+        "temperature_drop_K": 2500.0
+      },
+      {
+        "ar36_retained_fraction": 2.2739652566007968e-53,
+        "d_h_over_smow": 0.8756795691299587,
+        "final_ar36_kg": 1.1369826283003984e-37,
+        "final_d_h": 0.00013643087687044756,
+        "final_nitrogen_kg": 4.3224736973449364e+18,
+        "final_temperature_K": 300.0,
+        "first_below_1500_year": 50550.55055055056,
+        "max_crossover_mass_amu": 564603.1225622032,
+        "nitrogen_residual_fraction": 0.0018393505095084836,
+        "temperature_drop_K": 2500.0
+      },
+      {
+        "ar36_retained_fraction": 2.2739652566007968e-53,
+        "d_h_over_smow": 0.8728166723078655,
+        "final_ar36_kg": 1.1369826283003984e-37,
+        "final_d_h": 0.00013598483754556544,
+        "final_nitrogen_kg": 4.3224736973449364e+18,
+        "final_temperature_K": 300.0,
+        "first_below_1500_year": 50550.55055055056,
+        "max_crossover_mass_amu": 564603.1225622032,
+        "nitrogen_residual_fraction": 0.0018393505095084836,
+        "temperature_drop_K": 2500.0
+      },
+      {
+        "ar36_retained_fraction": 2.2739652566007968e-53,
+        "d_h_over_smow": 0.8728449274814594,
+        "final_ar36_kg": 1.1369826283003984e-37,
+        "final_d_h": 0.00013598923970161136,
+        "final_nitrogen_kg": 4.3224736973449364e+18,
+        "final_temperature_K": 300.0,
+        "first_below_1500_year": 50550.55055055056,
+        "max_crossover_mass_amu": 564603.1225622032,
+        "nitrogen_residual_fraction": 0.0018393505095084836,
+        "temperature_drop_K": 2500.0
+      },
+      {
+        "ar36_retained_fraction": 2.2739652566007968e-53,
+        "d_h_over_smow": 0.8713607487859627,
+        "final_ar36_kg": 1.1369826283003984e-37,
+        "final_d_h": 0.00013575800466085299,
+        "final_nitrogen_kg": 4.3224736973449364e+18,
+        "final_temperature_K": 300.0,
+        "first_below_1500_year": 50550.55055055056,
+        "max_crossover_mass_amu": 564603.1225622032,
+        "nitrogen_residual_fraction": 0.0018393505095084836,
+        "temperature_drop_K": 2500.0
+      },
+      {
+        "ar36_retained_fraction": 2.2739652566007968e-53,
+        "d_h_over_smow": 0.8712526538564833,
+        "final_ar36_kg": 1.1369826283003984e-37,
+        "final_d_h": 0.0001357411634708401,
+        "final_nitrogen_kg": 4.3224736973449364e+18,
+        "final_temperature_K": 300.0,
+        "first_below_1500_year": 50550.55055055056,
+        "max_crossover_mass_amu": 564603.1225622032,
+        "nitrogen_residual_fraction": 0.0018393505095084836,
+        "temperature_drop_K": 2500.0
+      }
+    ],
+    "cases": 8,
+    "d_h_over_smow_max": 0.8796672893022334,
+    "d_h_over_smow_min": 0.8712526538564833,
+    "final_ar36_kg_max": 1.1369826283003984e-37,
+    "final_ar36_kg_min": 1.1369826283003984e-37,
+    "final_d_h_max": 0.00013705216367328795,
+    "final_d_h_min": 0.0001357411634708401,
+    "final_nitrogen_kg_max": 4.3224736973449364e+18,
+    "final_nitrogen_kg_min": 4.3224736973449364e+18,
+    "final_temperature_K_max": 300.0,
+    "final_temperature_K_min": 300.0,
+    "first_below_1500_year_max": 50550.55055055056,
+    "first_below_1500_year_min": 50550.55055055056,
+    "max_crossover_mass_amu_max": 564603.1225622032,
+    "max_crossover_mass_amu_min": 564603.1225622032,
+    "nitrogen_residual_fraction_max": 0.0018393505095084836,
+    "nitrogen_residual_fraction_min": 0.0018393505095084836,
+    "temperature_drop_K_max": 2500.0,
+    "temperature_drop_K_min": 2500.0
+  },
+  "chemistry": {
+    "cases_successful": 16,
+    "cases_total": 16,
+    "h2_pressure_bar_by_x_nh3": {
+      "0.005": 19.578837791931136,
+      "0.010": 39.11881133531652,
+      "0.025": 97.73877871125529,
+      "0.050": 195.43875172949254
+    },
+    "hcn_final_mol_max": 1.7362926883017898e+17,
+    "hcn_final_mol_min": 8.793354694052326e+16,
+    "hcn_positive_cases": 16
+  }
+}

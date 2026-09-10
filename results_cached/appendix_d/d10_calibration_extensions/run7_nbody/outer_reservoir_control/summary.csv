@@ -1,0 +1,19 @@
+metric,value
+config,config_used.json
+evidence_class,exploratory
+scientific_use,Short present-architecture control run. It is not a Nice-model instability and cannot estimate a 4.1-Ga delivery probability.
+rebound_version,5.1.1
+seed,410100
+integrator,mercurius
+collision_search,direct
+duration_yr,200.0
+source_generator,outer_reservoir
+test_particles_initial,256
+collisions_with_earth,0
+grazing_60_75,0
+earth_radius_multiplier,1.0
+reservoir_backreaction,False
+inner_crossing_threshold_au,
+inner_crossers,0
+relative_energy_error,-5.609783798678737e-09
+claim_boundary,Pipeline-validation and exploratory runs are not delivery probabilities.

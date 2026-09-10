@@ -1,0 +1,5 @@
+inner_body,outer_body,expected_period_ratio,actual_period_ratio,accepted
+Jupiter,Saturn,1.5,1.4999999999999998,True
+Saturn,IceGiant3,1.5,1.5000000000000002,True
+IceGiant3,Uranus,2.0,1.9999999999999998,True
+Uranus,Neptune,1.5,1.4999999999999998,True

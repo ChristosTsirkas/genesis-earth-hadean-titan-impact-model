@@ -1,0 +1,91 @@
+{
+  "evidence_class": "pipeline_validation",
+  "scientific_use": "Short Run-9 execution smoke test for the resonant-chain and back-reacting-disk code path; not an instability-timescale or delivery-probability experiment.",
+  "literature_basis": {
+    "resonant_chain": "Nesvorny and Morbidelli (2012), AJ 144, 117",
+    "implementation_boundary": "The deliberately coarse two-year disk is only a software-path test."
+  },
+  "seed": 410301,
+  "integrator": "mercurius",
+  "collision_search": "direct",
+  "dt_yr": 0.02,
+  "duration_yr": 2.0,
+  "output_samples": 20,
+  "earth_radius_multiplier": 1.0,
+  "inner_crossing_threshold_au": 1.3,
+  "expected_period_ratios": [
+    1.5,
+    1.5,
+    2.0,
+    1.5
+  ],
+  "resonant_chain_names": [
+    "Jupiter",
+    "Saturn",
+    "IceGiant3",
+    "Uranus",
+    "Neptune"
+  ],
+  "massive_bodies": [
+    {
+      "name": "Earth",
+      "mass_msun": 3.0034896e-06,
+      "a_au": 1.0,
+      "e": 0.0167,
+      "inc_deg": 0.0,
+      "M_deg": 0.0
+    },
+    {
+      "name": "Jupiter",
+      "mass_msun": 0.00095458,
+      "a_au": 5.4,
+      "e": 0.005,
+      "inc_deg": 0.1,
+      "M_deg": 20.0
+    },
+    {
+      "name": "Saturn",
+      "mass_msun": 0.00028582,
+      "a_au": 7.076001764364021,
+      "e": 0.005,
+      "inc_deg": 0.1,
+      "M_deg": 140.0
+    },
+    {
+      "name": "IceGiant3",
+      "mass_msun": 4.5052344e-05,
+      "a_au": 9.272185364681988,
+      "e": 0.005,
+      "inc_deg": 0.2,
+      "M_deg": 260.0
+    },
+    {
+      "name": "Uranus",
+      "mass_msun": 4.3662e-05,
+      "a_au": 14.71867680194033,
+      "e": 0.005,
+      "inc_deg": 0.2,
+      "M_deg": 80.0
+    },
+    {
+      "name": "Neptune",
+      "mass_msun": 5.1514e-05,
+      "a_au": 19.28692278141362,
+      "e": 0.005,
+      "inc_deg": 0.2,
+      "M_deg": 200.0
+    }
+  ],
+  "source": {
+    "generator": "outer_reservoir",
+    "n_particles": 32,
+    "a_min_au": 21.5,
+    "a_max_au": 30.0,
+    "e_min": 0.0,
+    "e_max": 0.01,
+    "inc_sigma_deg": 0.5,
+    "backreaction": true,
+    "total_disk_mass_earth": 20.0,
+    "particle_mass_msun": 1.877071316137533e-06
+  }
+}

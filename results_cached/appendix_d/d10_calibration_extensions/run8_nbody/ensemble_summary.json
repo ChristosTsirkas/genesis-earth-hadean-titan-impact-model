@@ -1,0 +1,29 @@
+{
+  "config": "nbody/configs/post_instability_injection_pilot.json",
+  "config_sha256": "c0799783a1ec68325a1390a29679a92b6118d0376ce0fb3089aea3df2ea45913",
+  "evidence_class": "exploratory",
+  "scientific_use": "Multi-seed post-release transport pilot conditioned on high-eccentricity injection from an outer reservoir; not a self-consistent instability or an absolute delivery probability.",
+  "source_generator": "perihelion_injection",
+  "seeds": [
+    410201,
+    410202,
+    410203,
+    410204
+  ],
+  "run_count": 4,
+  "duration_per_run_yr": 500.0,
+  "test_particles_per_run": 256,
+  "test_particles_total": 1024,
+  "particle_years": 512000.0,
+  "earth_collisions_total": 0,
+  "grazing_60_75_total": 0,
+  "collision_fraction_per_integrated_particle": 0.0,
+  "collision_fraction_wilson_95": [
+    0.0,
+    0.0037374040400176777
+  ],
+  "grazing_fraction_of_collisions": null,
+  "grazing_fraction_wilson_95": null,
+  "max_abs_relative_energy_error": 1.962985318124549e-15,
+  "claim_boundary": "This post-release transport pilot conditions on injected high-eccentricity orbits. It is not a self-consistent giant-planet instability, an absolute source-to-Earth delivery probability, or evidence for a Titan-mass impact."
+}

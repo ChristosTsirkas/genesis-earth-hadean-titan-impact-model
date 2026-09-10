@@ -1,0 +1,61 @@
+{
+  "evidence_class": "exploratory",
+  "scientific_use": "Short present-architecture control run. It is not a Nice-model instability and cannot estimate a 4.1-Ga delivery probability.",
+  "seed": 410100,
+  "integrator": "mercurius",
+  "dt_yr": 0.02,
+  "duration_yr": 200.0,
+  "output_samples": 400,
+  "earth_radius_multiplier": 1.0,
+  "massive_bodies": [
+    {
+      "name": "Earth",
+      "mass_msun": 3.0034896e-06,
+      "a_au": 1.0,
+      "e": 0.0167,
+      "inc_deg": 0.0,
+      "M_deg": 0.0
+    },
+    {
+      "name": "Jupiter",
+      "mass_msun": 0.00095458,
+      "a_au": 5.2044,
+      "e": 0.0489,
+      "inc_deg": 1.303,
+      "M_deg": 20.0
+    },
+    {
+      "name": "Saturn",
+      "mass_msun": 0.00028582,
+      "a_au": 9.5826,
+      "e": 0.0565,
+      "inc_deg": 2.485,
+      "M_deg": 110.0
+    },
+    {
+      "name": "Uranus",
+      "mass_msun": 4.3662e-05,
+      "a_au": 19.2184,
+      "e": 0.0463,
+      "inc_deg": 0.773,
+      "M_deg": 220.0
+    },
+    {
+      "name": "Neptune",
+      "mass_msun": 5.1514e-05,
+      "a_au": 30.1104,
+      "e": 0.0095,
+      "inc_deg": 1.77,
+      "M_deg": 310.0
+    }
+  ],
+  "source": {
+    "generator": "outer_reservoir",
+    "n_particles": 256,
+    "a_min_au": 15.0,
+    "a_max_au": 45.0,
+    "e_min": 0.0,
+    "e_max": 0.12,
+    "inc_sigma_deg": 5.0
+  }
+}

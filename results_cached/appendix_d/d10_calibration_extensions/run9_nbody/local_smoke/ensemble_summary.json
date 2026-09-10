@@ -1,0 +1,27 @@
+{
+  "config": "nbody/instability_ensemble/configs/local_smoke.json",
+  "config_sha256": "e8670e14e2c030727d8d0148190ccc178172218c2a00d512e6d783a508c10993",
+  "evidence_class": "pipeline_validation",
+  "scientific_use": "Short Run-9 execution smoke test for the resonant-chain and back-reacting-disk code path; not an instability-timescale or delivery-probability experiment.",
+  "source_generator": "outer_reservoir",
+  "seeds": [
+    410301,
+    410302
+  ],
+  "run_count": 2,
+  "duration_per_run_yr": 2.0,
+  "test_particles_per_run": 32,
+  "test_particles_total": 64,
+  "particle_years": 128.0,
+  "earth_collisions_total": 0,
+  "grazing_60_75_total": 0,
+  "collision_fraction_per_integrated_particle": 0.0,
+  "collision_fraction_wilson_95": [
+    0.0,
+    0.05662405979280534
+  ],
+  "grazing_fraction_of_collisions": null,
+  "grazing_fraction_wilson_95": null,
+  "max_abs_relative_energy_error": 8.033835052813659e-09,
+  "claim_boundary": "This ensemble inherits the evidence class and scientific-use boundary declared in its configuration. A short pipeline-validation run does not measure an instability timescale or an absolute source-to-Earth delivery probability."
+}

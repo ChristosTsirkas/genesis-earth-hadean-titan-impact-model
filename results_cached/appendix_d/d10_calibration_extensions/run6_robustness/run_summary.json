@@ -1,0 +1,94 @@
+{
+  "run": "Run 6 - OAT robustness and counterfactual validation",
+  "purpose": "Test local parameter sensitivity without recalibration.",
+  "baseline": {
+    "c_eff": 2.5e+25,
+    "impactor_dh": 0.0001465,
+    "n_photolysis_scale": 0.61,
+    "h2_reservoir_kg": 5e+20,
+    "argon_shielding_factor": 0.9805247566
+  },
+  "baseline_argon_exposure_factor": 0.019475243399999953,
+  "sweeps": {
+    "argon_exposure_factor": [
+      0.009737621699999977,
+      0.015580194719999963,
+      0.019475243399999953,
+      0.02337029207999994,
+      0.02921286509999993
+    ],
+    "impactor_dh": [
+      0.000139175,
+      0.00014357,
+      0.0001465,
+      0.00014943,
+      0.000153825
+    ],
+    "n_photolysis_scale": [
+      0.488,
+      0.549,
+      0.61,
+      0.671,
+      0.732
+    ],
+    "h2_reservoir_kg": [
+      4e+20,
+      4.5e+20,
+      5e+20,
+      5.5000000000000007e+20,
+      6e+20
+    ],
+    "c_eff": [
+      2.5e+25,
+      2.75e+25,
+      3.125e+25,
+      3.75e+25,
+      5e+25
+    ]
+  },
+  "counterfactuals": {
+    "no_argon_shielding": {
+      "argon_shielding_factor": 0.0
+    },
+    "complete_argon_shielding": {
+      "argon_shielding_factor": 1.0
+    },
+    "no_atomic_n_access": {
+      "n_photolysis_scale": 0.0
+    },
+    "no_h2_escape_reservoir": {
+      "h2_reservoir_kg": 0.0
+    },
+    "smow_like_impactor_water": {
+      "impactor_dh": 0.0001558
+    },
+    "double_heat_capacity": {
+      "c_eff": 5e+25
+    }
+  },
+  "cases_per_setting": 8,
+  "integration_years": 100000.0,
+  "integration_steps": 1000,
+  "baseline_reproduction": {
+    "label": "baseline_run5",
+    "c_eff": 2.5e+25,
+    "impactor_dh": 0.0001465,
+    "n_photolysis_scale": 0.61,
+    "h2_reservoir_kg": 5e+20,
+    "argon_shielding_factor": 0.9805247566,
+    "argon_exposure_factor": 0.019475243399999953,
+    "first_T_below_1500_yr_min": 50550.55055055056,
+    "first_T_below_1500_yr_max": 50550.55055055056,
+    "final_T_K_min": 300.0,
+    "final_T_K_max": 300.0,
+    "D_H_over_SMOW_min": 0.9424699699296769,
+    "D_H_over_SMOW_max": 0.9463006295671574,
+    "N_residual_fraction_min": 0.0018393505095084836,
+    "N_residual_fraction_max": 0.0018393505095084836,
+    "Ar36_retained_fraction_min": 0.12000000073673292,
+    "Ar36_retained_fraction_max": 0.12000000073673292,
+    "max_crossover_amu_min": 564603.1225622032,
+    "max_crossover_amu_max": 564603.1225622032
+  },
+  "interpretive_rule": "No new empirical pass/fail tolerances are invented here; report response surfaces and explicit ablations."
+}

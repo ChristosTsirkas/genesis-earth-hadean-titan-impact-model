@@ -1,0 +1,78 @@
+{
+  "evidence_class": "exploratory",
+  "scientific_use": "Multi-seed post-release transport pilot conditioned on high-eccentricity injection from an outer reservoir; not a self-consistent instability or an absolute delivery probability.",
+  "seed": 410202,
+  "integrator": "ias15",
+  "collision_search": "line",
+  "dt_yr": 0.002,
+  "duration_yr": 500.0,
+  "output_samples": 1000,
+  "earth_radius_multiplier": 1.0,
+  "massive_bodies": [
+    {
+      "name": "Venus",
+      "mass_msun": 2.4478e-06,
+      "a_au": 0.7233,
+      "e": 0.0068,
+      "inc_deg": 3.395,
+      "M_deg": 50.0
+    },
+    {
+      "name": "Earth",
+      "mass_msun": 3.0034896e-06,
+      "a_au": 1.0,
+      "e": 0.0167,
+      "inc_deg": 0.0,
+      "M_deg": 0.0
+    },
+    {
+      "name": "Mars",
+      "mass_msun": 3.2272e-07,
+      "a_au": 1.5237,
+      "e": 0.0934,
+      "inc_deg": 1.85,
+      "M_deg": 120.0
+    },
+    {
+      "name": "Jupiter",
+      "mass_msun": 0.00095458,
+      "a_au": 5.2044,
+      "e": 0.0489,
+      "inc_deg": 1.303,
+      "M_deg": 20.0
+    },
+    {
+      "name": "Saturn",
+      "mass_msun": 0.00028582,
+      "a_au": 9.5826,
+      "e": 0.0565,
+      "inc_deg": 2.485,
+      "M_deg": 110.0
+    },
+    {
+      "name": "Uranus",
+      "mass_msun": 4.3662e-05,
+      "a_au": 19.2184,
+      "e": 0.0463,
+      "inc_deg": 0.773,
+      "M_deg": 220.0
+    },
+    {
+      "name": "Neptune",
+      "mass_msun": 5.1514e-05,
+      "a_au": 30.1104,
+      "e": 0.0095,
+      "inc_deg": 1.77,
+      "M_deg": 310.0
+    }
+  ],
+  "source": {
+    "generator": "perihelion_injection",
+    "n_particles": 256,
+    "a_min_au": 15.0,
+    "a_max_au": 30.0,
+    "q_min_au": 0.75,
+    "q_max_au": 1.75,
+    "inc_sigma_deg": 10.0
+  }
+}
