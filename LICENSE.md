@@ -14,7 +14,7 @@ This grant covers only original material for which the copyright holder has righ
 ## Theatrical play and GENESIS music materials — CC BY-NC-SA 4.0
 
 The original work in ``docs/GENESIS — Complete Theatrical Play — Musical Score — Composer Dossier.pdf``—including the theatrical play, musical score, composer dossier, and their original text, music, notation, artwork, and layout—is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-The GENESIS music materials in ``music`` are also licensed under that license: ``genesis_music_builder.py``, ``genesis.mid``, ``genesis.flac``, ``genesis_music_score.pdf`` and any direct GENESIS music outputs added alongside them.
+The GENESIS music materials in ``music`` are also licensed under that license: ``genesis_music_builder.py``, ``genesis.mid``, ``genesis_music_score.pdf`` and any direct GENESIS music outputs added alongside them.
 You may share and adapt this material for non-commercial purposes, provided that you give appropriate credit, link to the license, indicate changes, and distribute any adaptations under the same license.
 
 This grant covers only original material for which the copyright holder has rights to grant it. Quoted, cited, or otherwise identified third-party material remains subject to its own terms.
