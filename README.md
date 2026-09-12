@@ -48,6 +48,21 @@ model assumptions, code, interpretations, and manuscript and retains
 responsibility for the published work. The complete project statement is in
 [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md).
 
+## Theatrical and Musical Materials
+
+The dramatic and musical components of **GENESIS** have been developed as a single theatrical work rather than as independent illustrations of the scientific paper. The complete 544-verse bilingual libretto, together with the symphonic-theatrical score, follows the formal architecture of Greek tragedy and develops the project’s central themes through dramatic dialogue, choral writing, orchestral structure and separate Ancient Greek and English vocal settings.
+
+Supporting musical materials — including the **Conductor Performance Score, Composer Dossier, Ancient Greek and English Vocal Performance Scores, editable vocal scores and related performance material** — may be accessed here:
+
+https://github.com/ChristosTsirkas/genesis-earth-hadean-titan-impact-model/tree/main/music
+
+The **complete theatrical libretto**, together with the scientific paper and associated documentation, is available here:
+
+https://github.com/ChristosTsirkas/genesis-earth-hadean-titan-impact-model/tree/main/docs
+
+A computer-generated preview of the musical score can be accessed at my SoundCloud profile:
+https://soundcloud.com/chris-t-331652374/genesis
+
 ## Verification status
 
 The complete D.1–D.10 replay passed: all 558 generated files matched the cached
